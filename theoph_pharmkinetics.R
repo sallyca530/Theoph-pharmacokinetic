@@ -8,11 +8,11 @@ head(Theoph)
 tail(Theoph)
 
 # The Theoph dataset contains data on the pharmacokinetics of theophylline:
-# - Subject: Identifier of the subject
-# - Time: Time since drug administration (hr)
-# - conc: Plasma theophylline concentration (mg/L)
-# - Weight: Weight of the subject (kg)
-# - Dose: Dose of the drug administered (mg/kg)
+# Subject: Identifier of the subject
+# Time: Time since drug administration (hr)
+# conc: Plasma theophylline concentration (mg/L)
+# Weight: Weight of the subject (kg)
+# Dose: Dose of the drug administered (mg/kg)
 
 # Plot 1: Plasma concentration vs Time for all subjects
 ggplot(Theoph, aes(x = Time, y = conc, color = factor(Subject))) +
